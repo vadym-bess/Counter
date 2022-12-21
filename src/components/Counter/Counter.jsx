@@ -29,8 +29,9 @@ export class Counter extends Component {
     };
 
     render() {
-        return (<div className={clsx(css.wrapper)}>
-                   <div>
+        return  <div className={clsx(css.wrapper)}>
+            <div>
+                <h1 className={clsx(css.title)}>Counter</h1>
                      <span className={clsx(css.value)}>{this.state.value}</span>
                         <div className={clsx(css.wrapper__item)}>
                             <button type="button" className={clsx(css.Increment)} onClick={this.Increment}>+</button>
@@ -39,6 +40,6 @@ export class Counter extends Component {
                     </div>
                 </div>
             
-        )
+        
     }
 }
