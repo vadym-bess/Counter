@@ -36,10 +36,10 @@ button {
 }
 
 .Increment{
-    font-size: large;
+    font-size: x-large;
     margin-top: 50px;
     height: 30px;
-    width: 70px;
+    width: 90px;
     box-shadow: 0px 0px 13px 3px rgba(0, 0, 0, 0.2);
     background-color: green;
     border: transparent;
@@ -47,10 +47,10 @@ button {
 }
 
 .Decrement {
-    font-size: large;
+    font-size: x-large;
     margin-top: 50px;
     height: 30px;
-    width: 70px;
+    width: 90px;
     box-shadow: 0px 0px 13px 3px rgba(0, 0, 0, 0.2);
     background-color: red;
     border: transparent;
