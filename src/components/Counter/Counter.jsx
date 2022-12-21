@@ -29,10 +29,11 @@ export class Counter extends Component {
     };
 
     render() {
+        const { value } = this.state;
         return  <div className={clsx(css.wrapper)}>
             <div>
                 <h1 className={clsx(css.title)}>Counter</h1>
-                     <span className={clsx(css.value)}>{this.state.value}</span>
+                     <span className={clsx(css.value)}>{value}</span>
                         <div className={clsx(css.wrapper__item)}>
                             <button type="button" className={clsx(css.Increment)} onClick={this.Increment}>+</button>
                             <button type="button" className={clsx(css.Decrement)} onClick={this.Decrement}>-</button>
