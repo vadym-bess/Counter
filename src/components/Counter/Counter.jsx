@@ -2,7 +2,7 @@ import {useState} from "react";
 import clsx from 'clsx';
 import css from './Counter.module.css';
 
-export const Counter =() => {
+export const Counter = () => {
     const [counter, setCounter] = useState(0);
     
   const  handleIncrement = () => {
